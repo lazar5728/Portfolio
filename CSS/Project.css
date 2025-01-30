@@ -1,0 +1,25 @@
+*{
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+section{
+    padding: 2rem;
+    color: orangered;
+    margin: auto;
+}
+.projects{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5rem;
+}
+.card{
+   border: 1px solid black;
+   padding: 1rem;
+   border-radius: 1rem;
+   flex: 1 1 45%;
+}
