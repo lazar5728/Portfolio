@@ -265,3 +265,96 @@ span{
     color: white;
 
 }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8%; /* Réduction du padding pour les petits écrans */
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 22px; /* Ajustement pour mobile */
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.contact {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* Section home */
+.home {
+    display: flex;
+    flex-direction: column; /* Mise en colonne sur petit écran */
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    padding: 20px 8%;
+}
+
+.home-content h1 {
+    font-size: 50px; /* Réduction de la taille */
+}
+
+.img-bx img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+/* Section about */
+.about {
+    display: flex;
+    flex-direction: column; /* Empilement vertical sur mobile */
+    align-items: center;
+    padding: 8% 5%;
+    gap: 2em;
+    text-align: center;
+}
+
+.about-img img {
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Section contact */
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 5%;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
